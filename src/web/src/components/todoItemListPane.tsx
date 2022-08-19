@@ -157,7 +157,7 @@ const TodoItemListPane: FC<TodoItemListPaneProps> = (props: TodoItemListPaneProp
     ];
 
     const commandItems: ICommandBarItemProps[] = [
-        { key: 'markComplete', text: 'Mark Complete', iconProps: { iconName: 'Completed' }, onClick: () => { completeItems() } },
+        { key: 'markComplete', text: 'Mark Completed', iconProps: { iconName: 'Completed' }, onClick: () => { completeItems() } },
         { key: 'delete', text: 'Delete', iconProps: { iconName: 'Delete' }, onClick: () => { deleteItems() } },
     ];
 
